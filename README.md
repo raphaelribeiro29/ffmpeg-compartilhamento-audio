@@ -34,7 +34,7 @@ ffmpeg -f pulse -i default -c:a libmp3lame -f rtp rtp://<endereço IP da máquin
 ### Script de Automação (Envio)
 Arquivo: `EnvioAudio.sh`
 
-O arquivo deve ser baixado e deve executar o comando a seguir, para tornar o arquivo executável: ```chmod +x ./EnvioAudio.sh```
+O arquivo deve ser baixado, deve ser configurado o endereço IP e porta e deve executar o comando a seguir, para tornar o arquivo executável: ```chmod +x ./EnvioAudio.sh```
 
 Ao executar o arquivo, será aberto o terminal e exibirá as informações sobre a transmissão do áudio.
 
@@ -50,4 +50,4 @@ O endereço e porta devem ser o mesmo utilizado na máquina Client.
 ### Script de Automação (recebimento)
 Arquivo: `RecebimentoAudio.bat`
 
-O arquivo deve ser baixado e ao ser executado, abrirá o terminal e exibirá as informações sobre a transmissão do áudio.
+O arquivo deve ser baixado, deve ser configurado o endereço IP e porta e ao ser executado, abrirá o terminal e exibirá as informações sobre a transmissão do áudio.
